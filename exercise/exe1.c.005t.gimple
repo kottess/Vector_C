@@ -1,0 +1,35 @@
+main ()
+{
+  int iftmp.0;
+  int iftmp.1;
+  int D.2327;
+
+  {
+    int x;
+    int y;
+    int z;
+
+    x = 0;
+    y = 10;
+    if (x != 0) goto <D.2320>; else goto <D.2321>;
+    <D.2320>:
+    if (y != 0) goto <D.2323>; else goto <D.2324>;
+    <D.2323>:
+    iftmp.1 = 20;
+    goto <D.2325>;
+    <D.2324>:
+    iftmp.1 = 30;
+    <D.2325>:
+    iftmp.0 = iftmp.1;
+    goto <D.2326>;
+    <D.2321>:
+    iftmp.0 = 40;
+    <D.2326>:
+    z = iftmp.0;
+    printf ("z=%d\n", z);
+  }
+  D.2327 = 0;
+  return D.2327;
+}
+
+
