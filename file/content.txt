@@ -1,0 +1,3 @@
+printf ("%d\n",i);
+printfd("%d\n",i);
+printf ("%d\n",i);
