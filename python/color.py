@@ -1,0 +1,7 @@
+print("\033[30;4mIndia")
+print("\033[0m")
+print("\033[31mWelcome")
+print("\033[32mWelcome")
+print("\033[33mWelcome")
+print("\033[34mWelcome")
+print("\033[0m")

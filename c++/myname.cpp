@@ -1,0 +1,9 @@
+#include<iostream>
+#include<clocale>
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL,"");
+	wchar_t ch[30]={0xBCB,0xB95,' ',0x0B9F,0x0BCD,' ',0x0B9F,0x0BC0, 0x0BB8,0x0BCD,' ',0x0BB5,' ',0xBB0,0x0BA9,0x0BCD};
+	wcout<<ch<<endl;
+}
